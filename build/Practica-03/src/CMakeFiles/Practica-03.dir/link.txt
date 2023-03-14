@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Practica-03.dir/main_polynomial.cc.o -o ../../bin/Practica-03 
