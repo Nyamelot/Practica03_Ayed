@@ -68,21 +68,22 @@ SparseVectorT::SparseVectorT(const int n) : pv_(n), nz_(0), n_(n) {}
 
 // FASE II
 SparseVectorT::SparseVectorT(const VectorT<double>& v, const double eps)
-    : pv_(), nz_(0), n_(0) {
-  for (int i = 0; i < v.get_size(); i++) {
-    if (IsNotZero(v.at(i))) {
-      nz_++;
-    }
+    : pv_(), nz_(0), n_(v.get_size()) {
+  n_ = v.get_size();
+  int new_size = 0;
+  for (int i = 0; i < n_; ++i) {
+    if (fabs(v[i] > eps)) ++new_size;
   }
-  pv_.resize(nz_);
+  pv_.resize(new_size);
   int j = 0;
-  for (int i = 0; i < nz_; i++) {
-    if (IsNotZero(v.at(i))) {
-      pair_double_t pair{v[i], i};
-      pv_[j] = pair;
+  for (int i = 0; i < v.get_size(); ++i) {
+    if (fabs(v[i]) != 0) {
+      PairT<double> PairT(v[i], i);
+      pv_[j] = PairT;
       ++j;
     }
   }
+  nz_ = new_size;
 }
 
 // constructor de copia
