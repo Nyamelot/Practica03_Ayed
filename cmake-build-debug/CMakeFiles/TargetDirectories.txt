@@ -1,0 +1,7 @@
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/Practica-03/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/Practica-03/CMakeFiles/rebuild_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/Practica-03/src/CMakeFiles/Practica-03.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/Practica-03/src/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/cmake-build-debug/Practica-03/src/CMakeFiles/rebuild_cache.dir

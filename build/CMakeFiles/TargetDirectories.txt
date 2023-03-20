@@ -1,7 +1,7 @@
-/home/nyan/Ayed_Practicas/Practica03/build/CMakeFiles/edit_cache.dir
-/home/nyan/Ayed_Practicas/Practica03/build/CMakeFiles/rebuild_cache.dir
-/home/nyan/Ayed_Practicas/Practica03/build/Practica-03/CMakeFiles/edit_cache.dir
-/home/nyan/Ayed_Practicas/Practica03/build/Practica-03/CMakeFiles/rebuild_cache.dir
-/home/nyan/Ayed_Practicas/Practica03/build/Practica-03/src/CMakeFiles/Practica-03.dir
-/home/nyan/Ayed_Practicas/Practica03/build/Practica-03/src/CMakeFiles/edit_cache.dir
-/home/nyan/Ayed_Practicas/Practica03/build/Practica-03/src/CMakeFiles/rebuild_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/CMakeFiles/rebuild_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/Practica-03/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/Practica-03/CMakeFiles/rebuild_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/Practica-03/src/CMakeFiles/Practica-03.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/Practica-03/src/CMakeFiles/edit_cache.dir
+/home/nyan/practicas/Ayed/Practica03-Ayed/build/Practica-03/src/CMakeFiles/rebuild_cache.dir
