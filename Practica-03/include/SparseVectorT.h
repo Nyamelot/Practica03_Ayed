@@ -1,7 +1,7 @@
-// AUTOR: 
-// FECHA: 
-// EMAIL: 
-// VERSION: 4.0
+// AUTOR: José Ángel Portillo García
+// FECHA: 18/03/2023
+// EMAIL: alu0101568232@ull.edu.es
+// VERSION: 1.0
 // ASIGNATURA: Algoritmos y Estructuras de Datos
 // PRÁCTICA Nº: 3
 // ESTILO: Google C++ Style Guide
@@ -78,8 +78,8 @@ SparseVectorT::SparseVectorT(const VectorT<double>& v, const double eps)
   int j = 0;
   for (int i = 0; i < v.get_size(); ++i) {
     if (fabs(v[i]) != 0) {
-      PairT<double> PairT(v[i], i);
-      pv_[j] = PairT;
+      PairT<double> pair_t(v[i], i);
+      pv_[j] = pair_t;
       ++j;
     }
   }

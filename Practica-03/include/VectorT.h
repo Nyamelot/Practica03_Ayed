@@ -1,7 +1,7 @@
-// AUTOR: 
-// FECHA: 
-// EMAIL: 
-// VERSION: 3.1
+// AUTOR: José Ángel Portillo García
+// FECHA: 18/03/2023
+// EMAIL: alu0101568232@ull.edu.es
+// VERSION: 1.0
 // ASIGNATURA: Algoritmos y Estructuras de Datos
 // PRÁCTICA Nº: 3
 // ESTILO: Google C++ Style Guide
