@@ -68,7 +68,7 @@ SparseVectorT::SparseVectorT(const int n) : pv_(n), nz_(0), n_(n) {}
 
 // FASE II
 SparseVectorT::SparseVectorT(const VectorT<double>& v, const double eps)
-    : pv_(), nz_(0), n_(v.get_size()) {
+    : pv_(), nz_(0), n_(0) {
   n_ = v.get_size();
   int new_size = 0;
   for (int i = 0; i < n_; ++i) {
@@ -140,6 +140,8 @@ std::ostream& operator<<(std::ostream& os, const SparseVectorT& sv) {
   sv.write(os);
   return os;
 }
+
+
 
 
 #endif  // SPARSE_VECTORT_H_

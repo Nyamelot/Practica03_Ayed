@@ -91,5 +91,13 @@ int main()
   cout << "sp3 == p2? " << (sp3.IsEqual(p2) ? "true" : "false") << endl;
   cout << endl;
 
+  //Modificacion
+  cout << "Pares de sp1" << std::endl;
+  PotenciasPares(sp1);
+  cout << "Pares de sp2" << std::endl;
+  PotenciasPares(sp2);
+  cout << "Pares de sp3" << std::endl;
+  PotenciasPares(sp3);
+
   return 0;
 }

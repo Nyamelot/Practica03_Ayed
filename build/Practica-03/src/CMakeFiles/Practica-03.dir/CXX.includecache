@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Practica-03/include/PairT.h
+iostream
+-
+
+../Practica-03/include/SparseVectorT.h
+iostream
+-
+math.h
+-
+VectorT.h
+../Practica-03/include/VectorT.h
+PairT.h
+../Practica-03/include/PairT.h
+
+../Practica-03/include/VectorT.h
+iostream
+-
+cassert
+-
+
+../Practica-03/include/polynomial.h
+iostream
+-
+math.h
+-
+VectorT.h
+../Practica-03/include/VectorT.h
+SparseVectorT.h
+../Practica-03/include/SparseVectorT.h
+
+/home/usuario/Ayed/Practica03_Ayed/Practica-03/src/main_polynomial.cc
+iostream
+-
+polynomial.h
+/home/usuario/Ayed/Practica03_Ayed/Practica-03/src/polynomial.h
+

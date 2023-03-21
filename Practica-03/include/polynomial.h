@@ -168,6 +168,14 @@ bool SparsePolynomial::IsEqual(const Polynomial& pol, const double eps) const {
   return !differents;
 }
 
+// Modificacion
+void PotenciasPares(const SparsePolynomial& spar) {
+  for (int i = 0; i < spar.get_nz(); i++) {
+    if (spar.at(i).get_inx() % 2 == 0) {
+      std::cout << spar.at(i).get_val() << std::endl;
+    }
+  }
+}
 
 
 #endif  // POLYNOMIAL_H_
